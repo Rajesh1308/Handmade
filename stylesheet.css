@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(6, 61, 14);
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.button{
+    display: flex;
+}
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+    background: rgb(35, 186, 55);
+    color: rgb(244, 239, 245);
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.wish{
+    font-size: 30px;
+    text-align: center;
+    color: #c9bcd4;
+    padding-top: 150px;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(45, 186, 81);
+}
+.bday{
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(100deg, #023d15 0%, #11672c 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.name{
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(100deg, #03460c 0%, #0c7f23 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.button{
+    display: flex;
+}
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+    background: rgb(6, 83, 35);
+    color: rgb(224, 218, 226);
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.wish{
+    font-size: 30px;
+    text-align: center;
+    color: #c9bcd4;
+    padding-top: 150px;
+}
